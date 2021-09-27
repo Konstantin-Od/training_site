@@ -1,0 +1,1 @@
+!function(){let e=document.querySelectorAll(".ibg");for(var r=0;r<e.length;r++)e[r].querySelector("img")&&(e[r].style.backgroundImage="url("+e[r].querySelector("img").getAttribute("src")+")")}(),$(document).ready((function(){$(".first-page__burger").click((function(e){$(".first-page__burger, .first-page__menu").toggleClass("active")}))}));
